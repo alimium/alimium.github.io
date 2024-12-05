@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali Mehrabi</title>
+
+  <!--
+    - favicon
+  -->
+  <!-- <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon"> -->
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpeg" alt="Ali Mehrabi">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ali Mehrabi">Ali Mehrabi</h1>
+
+          <p class="title" align="center">B.Sc. in Computer Science<br>Amirkabir University of Technology</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:amehrabi@aut.ac.ir" class="contact-link">amehrabi@aut.ac.ir</a>
+              <a href="mailto:alimehrabi002@gmail.com" class="contact-link">alimehrabi002@gmail.com</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+            </div>
+
+          </li> -->
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Tehran, Iran</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li> -->
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li> -->
+
+          <li class="social-item">
+            <a target="_blank" href="https://drive.google.com/file/d/1fSwkvHCM3Fj6aTuK3jQDDWal4IwEYBkt/view?usp=share_link" class="social-link">
+              <ion-icon name="document-attach" aria-hidden="cv"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a target="_blank" href="https://www.linkedin.com/in/alimium" class="social-link">
+              <ion-icon name="logo-linkedin" aria-label="LinkedIn Page"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a target="_blank" href="https://www.github.com/alimium" class="social-link">
+              <ion-icon name="logo-github" aria-label="GitHub Profile"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Curriculum Vitae</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>News</button>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am an optimistic senior undergraduate student in computer science at Amirkabir University of Technology 
+            in Tehran, Iran. I am passionate about open, transparent,and impactful research to advance humanity as a 
+            whole and make the world a better place. <u><i>I expect to graduate by April 2025.</i></u>
+          </p>
+
+          <p>
+            I am also a part-time machine learning engineer at <a class="inline-block" href="https://www.mindro.co" target="_blank">Mindro</a>. I work on agent-oriented workflows and 
+            advanced information retrieval pipelines to enhance the response quality of LLM models. I also do ML related software engineering for efficient and scalable knowledge management through Mindro.
+          </p>
+        </section>
+
+
+        <!--
+          - interests
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Research Interests</h3>
+
+          <ul class="service-list">
+
+            <div class="content-card" data-service-item>
+              <figure class="testimonials-avatar-box">
+                <ion-icon name="hardware-chip" data-service-icon></ion-icon>
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-service-title>High-Performance ML</h4>
+
+              <div class="testimonials-text" data-service-text>
+                <p>
+                  GPU Programming and High-Performance Computing for efficient machine learning algorithms. 
+                  GPUs are essential contributors to the current advancements in AI by enabling highly parallel computation. 
+                  I am interested in crafting efficient algorithms both for data and computaion parallelism.
+                </p>
+              </div>
+            </div>
+
+            <div class="content-card" data-service-item>
+              <figure class="testimonials-avatar-box">
+                <ion-icon name="leaf" data-service-icon></ion-icon>
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-service-title>Physics-Informed ML</h4>
+
+              <div class="testimonials-text" data-service-text>
+                <p>
+                  Levaraging the governing physical laws of phenomena for more accurate modeling and prediction. 
+                  My interests span the spectrum of foundations and applications of physics-informed ML (PIML). 
+                  For example ocean modeling, climate modeling, molecular dynamics, and fluid dynamics. More 
+                  foundational examples include operator learning, PDE-constrained optimization, and neural 
+                  architectures for PINNs. I am interested in various aspects of PIML, specifically physics-
+                  enforced optimization methods for machine learning. I am generally inspired by the works of 
+                  <a class="inline-block" href="https://vivo.brown.edu/display/gkarniad">Professor George Em Karniadakis</a>.
+                </p>
+              </div>
+            </div>
+
+
+            <div class="content-card" data-service-item>
+              <figure class="testimonials-avatar-box">
+                <ion-icon name="subway" data-service-icon></ion-icon>
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-service-title>Optimization</h4>
+
+              <div class="testimonials-text" data-service-text>
+                <p>
+                  Optimization problems and mathematical programming (LPs, ILPs, MILPs, etc.). 
+                  Many of the complex algorithms and machine learning methods are inherently 
+                  optimization problems. This is often times intertwined with my other interests.
+                </p>
+              </div>
+            </div>
+
+
+            <div class="content-card" data-service-item>
+              <figure class="testimonials-avatar-box">
+                <ion-icon name="barcode-outline" data-service-icon></ion-icon>
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-service-title>Sequence Modeling</h4>
+
+              <div class="testimonials-text" data-service-text>
+                <p>
+                  Sequential data are ubiquitous in many shapes and forms. They may be in the form of 
+                  time series or not. I am broadly interested in problems related to sequential data, 
+                  namely natural language processing, time Series forecasting, robotics & autonomous 
+                  vehicles, health monitoring, protein ttructure prediction, molecule generation or other areas.
+                </p>
+              </div>
+            </div>
+
+            <div class="content-card" data-service-item>
+              <figure class="testimonials-avatar-box">
+                <ion-icon name="git-network-outline" data-service-icon></ion-icon>
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-service-title>Graph Learning</h4>
+
+              <div class="testimonials-text" data-service-text>
+                <p>
+                  Graph neural networks (GNNs) are an emerging branch of machine learning that capture 
+                  the relations of entities. They are particularly useful for representing complex domains 
+                  such as social media and drug discovery. I am mostly interested in the theoretical 
+                  foundations of GNNs, especially in combination of physics-informed learning.
+                </p>
+              </div>
+            </div>
+
+          </ul>
+
+        </section>
+
+
+
+        <!--
+          - interests modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <ion-icon name="hardware-chip" data-modal-img></ion-icon>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+
+              <div data-modal-text>
+                <p>
+                  
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - Aknowledgmenet
+        -->
+      <div class="modal-content">
+        <h4 class="h4 modal-title">Acknowledgment</h4>
+        <p><i>This website was created from <a class="inline-block" href="https://github.com/codewithsadee">Sadee</a>'s template on <a class="inline-block" href="https://github.com/codewithsadee/vcard-personal-portfolio?tab=readme-ov-file">GitHub</a>.</i></p>
+      </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="curriculum vitae">
+
+        <header>
+          <h2 class="h2 article-title">Curriculum Vitae</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Amirkabir University of Technology</h4>
+              <h5 class="h5 timeline-item-subtitle">B.Sc. in Computer Science</h5>
+
+              <span>2020 - Present (<u>Expected to graduate by April 2025</u>)</span>
+
+              
+              <p class="timeline-text">
+                <i>
+                GPA: 3.72/4 (17.52/20) 
+                </i>
+                <br>
+                I am in my final semester of studies. I started in mathematics but because of 
+                my passion for machine learning I decided to change my major to computer science. 
+                Since then, I am exploring the fields of applied mathematics and foundations of 
+                computer science. My bachelor's research project which I am currently conducting 
+                is about tokenization methods for time series data under the supervision of Dr. Erfan Salavati.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="people-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Teaching Assistantship</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Artificial Intelligence & Workshop (1319104)</h4>
+              <h5 class="h5 timeline-item-subtitle">Prof. Mehdi Ghatee · Amirkabir University of Technology</h5>
+
+              <span>Feb 2024 — Jun 2024</span>
+
+              <p class="timeline-text">
+                I was responsible for oral interviews & QA sessions along with assignment design & grading.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Structures & Algorithms (1218304)</h4>
+              <h5 class="h5 timeline-item-subtitle">Dr. Ardeshir Dolati · Amirkabir University of Technology</h5>
+
+              <span>Feb 2024 — Jun 2024</span>
+
+              <p class="timeline-text">
+                I was responsible for assignment grading.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Introduction to Computer Programming (1236313)</h4>
+              <h5 class="h5 timeline-item-subtitle">University-wide · Amirkabir University of Technology</h5>
+
+              <span>Feb 2024 — Jun 2024</span>
+
+              <p class="timeline-text">
+                I was selected for the university-wide TAship where I was assigned to the class of Dr. Ali 
+                Ebrahimi Jahan. This course was taught in Python.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="terminal-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Internships & Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Engineer</h4>
+              <h5 class="h5 timeline-item-subtitle">Mindro · Amsterdam, The Netherlands</h5>
+
+              <span>Jun 2024 — Nov 2024</span>
+
+              <p class="timeline-text">
+                <i>Part-time · Remote</i>
+                <br>
+                Skills: Agent‐oriented workflows · Advanced Information Retrieval
+                <br>
+                Tools: Python · LangChain · PyTorch · Weaviate
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Engineer Intern</h4>
+              <h5 class="h5 timeline-item-subtitle">Mindro · Amsterdam, The Netherlands</h5>
+
+              <span>Oct 2023 — Jun 2024</span>
+
+              <p class="timeline-text">
+                <i>Part-time · Remote</i>
+                <br>
+                Skills: LLMs · Retrieval Augmented Generation · Vector Databases · Prompt Engineering
+                <br>
+                Tools: LangChain · Protobuf · gRPC · Docker · Weaviate · PyTorch
+              </p>
+
+            </li>
+            
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Language, Skills & Traits</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                
+                <div class="title-wrapper">
+                  <h5 class="h5">English:</h5>
+                  <data value="91">Fluent · TOEFL iBT: C1/109 (R28 L29 S25 W27) · Adopted as first language for 3 years</data>
+                </div>
+                
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 91%;"></div>
+                </div>
+                
+              </li>
+
+              <li class="skills-item">
+                
+                <div class="title-wrapper">
+                  <h5 class="h5">Persian:</h5>
+                  <data value="100">Native</data>
+                </div>
+                
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%;"></div>
+                </div>
+                
+              </li>
+            </ul>
+
+            <ul class="skills-list content-card">
+              
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Programming Languages:</h5>
+                  <data value="100">Python · C++ · Java</data>
+                </div>
+              </li>
+              
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Libraries & Frameworks:</h5>
+                  <data value="100">PyTorch · JAX · NumPy · Pandas · LangChain · Docker · Pyomo · ...</data>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Miscellaneous:</h5>
+                  <data value="100">LaTeX · Neural Networks · Deep Learning · Git · Database Design</data>
+                </div>
+              </li>
+              
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Soft Skills:</h5>
+                  <data value="100">Self learning · Problem solving · Hardworking · Teamwork · Strong work ethics</data>
+                </div>
+              </li>
+            </ul>
+          </section>
+          
+          <section class="skill">
+            <h3 class="h3 skills-title">Relevant Courses</h3>
+            <div class="row">
+              <ul class="skills-list content-card column">
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Artificial Intelligence & Workshop</h5>
+                    <data value="95.65">19.13</data>
+                  </div>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 95.65%;"></div>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Data Mining</h5>
+                    <data value="88.6">17.72/20</data>
+                  </div>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 88.6%;"></div>
+                  </div>
+                </li>
+                    
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Data Structures & Algorithms</h5>
+                    <data value="100">20/20</data>
+                  </div>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 100%;"></div>
+                  </div>
+                </li>
+                    
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Foundation of Matrix & Linear Algebra</h5>
+                    <data value="87.15">17.43/20</data>
+                  </div>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 87.15%;"></div>
+                  </div>
+                </li>
+                    
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Advanced Programming</h5>
+                    <data value="100">20/20</data>
+                  </div>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 100%;"></div>
+                  </div>
+                </li>
+                    
+              </ul>
+
+
+              <ul class="skills-list content-card column">
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Combinatorial Optimization</h5>
+                    <data value="89.5">17.9/20</data>
+                  </div>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 89.5%;"></div>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Linear Optimization</h5>
+                    <data value="85">17/20</data>
+                  </div>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 85%;"></div>
+                  </div>
+                </li>
+                    
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Database & Workshop</h5>
+                    <data value="91.25">18.25/20</data>
+                  </div>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 91.25%;"></div>
+                  </div>
+                </li>
+                    
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Software Design & Workshop</h5>
+                    <data value="100">20/20</data>
+                  </div>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 100%;"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="medal-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Honors & Activities</h3>
+            </div>
+
+            <div class="title-wrapper">
+              <h4 class="h3 timeline-item-title">Awards</h4>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Faculty of Mathematics & Computer Science Best Internship of the Year</h4>
+                <h5 class="h5 timeline-item-subtitle">For my internship period in Mindro</h5>
+                <span>Dec 2024</span>
+              </li>
+            </ol>
+
+
+
+            <div class="title-wrapper">
+              <h4 class="h3 timeline-item-title">Online Courses</h4>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Physics Informed Machine Learning (<a class="inline-block" href="https://youtube.com/playlist?list=PLMrJAkhIeNNQ0BaKuBKY43k4xMo6NSbBa&si=bSZY2zRMUbb0ZxHU">YouTube</a>)</h4>
+                <h5 class="h5 timeline-item-subtitle">Prof. Steve Brunton</h5>
+                <span>Nov 2024</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Fundamentals of Accelerated Computing with CUDA Python  (<a class="inline-block" href="https://courses.nvidia.com/certificates/f8beece9e87d423bba8493b66c4821d5/">Credentials</a>)</h4>
+                <h5 class="h5 timeline-item-subtitle">NVIDIA Deep Learning Institute</h5>
+                <span>Nov 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Successful Negotiation  (<a class="inline-block" href="https://coursera.org/share/10e9ad949f1b0ce472ea160d7e08673a">Credentials</a>)</h4>
+                <h5 class="h5 timeline-item-subtitle">University of Michigan · Prof. George Siedel</h5>
+                <span>Jan 2022</span>
+              </li>
+            </ol>
+          </section>
+        </article>
+        
+        
+        
+        
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI/ML</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Optimization</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Software Engineering</button>
+            </li>
+            
+            <li class="filter-item">
+              <button data-filter-btn>Other</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="optimization">
+              <a href="https://www.github.com/maaaryam/bivariate-clustering-regression-milp" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="open-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bvcr.jpg" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Simultaneous Bivariate Clustering and Regression using MILP</h3>
+
+                <p class="project-category">Combinatorial Optimization Course Project<br>Feb 2023</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="optimization">
+              <a href="https://www.github.com/alimium/faculty-allocation-problem" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="open-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/stblmrg.webp" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Implementation of a Preference‑Based Allocation Problem</h3>
+
+                <p class="project-category">Combinatorial Optimization Course Project<br>Mar 2023</p>
+
+              </a>
+            </li>
+ 
+            <li class="project-item  active" data-filter-item data-category="optimization">
+              <a href="https://www.github.com/alimium/scheduling-problem-mip" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="open-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/schdl.jpg" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Classic Exam Scheduling Problem</h3>
+
+                <p class="project-category">Combinatorial Optimization Course Project<br>Jun 2023</p>
+
+              </a>
+            </li>
+ 
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
+              <a href="https://www.github.com/alimium/sudoku-solver" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="open-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sdk.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">A Sudoku Puzzle Engine and Solver</h3>
+
+                <p class="project-category">AI Course Project<br>Mar 2023</p>
+
+              </a>
+            </li>
+ 
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
+              <a href="https://www.github.com/alimium/breast-cancer-prediction" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="open-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bstcnr.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Breast Cancer Classification with PyTorch</h3>
+
+                <p class="project-category">Self Learning<br>Mar 2023</p>
+
+              </a>
+            </li>
+ 
+            <li class="project-item  active" data-filter-item data-category="software engineering">
+              <a href="https://www.github.com/MohammadrezaAmani/UniLand" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="open-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/uld.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UniLand: Student Utility Telegram Bot for University Resources</h3>
+
+                <p class="project-category">Software Design Course Project<br>Oct 2022-Jan 2023</p>
+
+              </a>
+            </li>
+ 
+            <li class="project-item  active" data-filter-item data-category="other">
+              <a href="https://github.com/alimium/about-numerical-linear-algebra" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="open-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/tnsr.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">About Numerical Linear Algebra</h3>
+
+                <p class="project-category">Numerical Linear Algebra Course Material and Assignments<br>Dec 2023</p>
+
+              </a>
+            </li>
+ 
+            <li class="project-item  active" data-filter-item data-category="software engineering">
+              <a href="https://github.com/alimium/chat-with-gpt-cli" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="open-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gpt.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Chat with GPT (CLI)</h3>
+
+                <p class="project-category">Self Learning<br>Mar 2024</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="other">
+              <a href="https://github.com/alimium/finite-automata-evaluation-conversion" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="open-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/atm.jpg" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finite Automata Simulation</h3>
+
+                <p class="project-category">Foundations of Theory of Computation final course project<br>Jun 2023</p>
+
+              </a>
+            </li>
+ 
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
+              <a href="https://github.com/alimium/hospital-readmission-prediction-for-diabetic-patients" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="open-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/adm.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hospital Readmission Prediction for Diabetic Patients</h3>
+
+                <p class="project-category">Data Minig course project<br>Jun 2023</p>
+
+              </a>
+            </li>
+ 
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
+              <a href="https://github.com/alimium/n-queens-genetic-algorithm" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="open-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gen.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Solving the N-Queens Problem using Genetic Algorithm</h3>
+
+                <p class="project-category">AI course project<br>Jun 2023</p>
+
+              </a>
+            </li>
+ 
+            <li class="project-item  active" data-filter-item data-category="optimization">
+              <a href="https://github.com/alimium/employment-optimization-problem" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="open-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/emp.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Employment Optimization Problem</h3>
+
+                <p class="project-category">Linear Optimization Voluntary Final Project<br>Jan 2023</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
